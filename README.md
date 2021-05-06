@@ -4,10 +4,10 @@ Using oracle database is just painful. This is a template repo to spin up oracle
 
 # **Creating the docker image**
 
-first git clone this repository
+first `git clone` this repository
 
 
-navigate to `dockerfiles/<version>` . Download the binary of your desired oracle database version and put it there . The binaries can be downloaded from the [Oracle Technology Network](www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html), make sure you use the linux link: `Linux x86-64`. The needed file is named `linuxx64_<version>_database.zip`.
+navigate to `dockerfiles/<version>` . Download the binary of your desired oracle database version and put it there . The binaries can be downloaded from the [Oracle Technology Network](www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html), make sure you use the linux link: `Linux x86-64`. The needed file is named `linuxx64_<version>_database.zip`. Do not unzip.
 
 Now go to `dockerfiles` and run the `buildContainerImage.sh` script
 
